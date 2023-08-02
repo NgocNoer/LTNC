@@ -1,0 +1,9 @@
+Trong đoạn mã trên, chúng ta định nghĩa lớp Box với các thuộc tính là chiều dài (length), chiều rộng (width) và chiều cao (height). Lớp Box cũng có hai hàm khởi tạo, một hàm để tính thể tích của hộp, và hai phép toán đè là < và <<.
+
+Phép toán đè < được sử dụng để so sánh hai hộp, theo thứ tự tăng dần của length, width và height. Phép toán đè << được sử dụng để in ra thông tin của hộp theo định dạng "length width height".
+
+Trong hàm main(), chúng ta bắt đầu bằng cách nhập số lượng hộp n và khởi tạo một mảng boxes với kích thước n. Sau đó, chúng ta đọc dữ liệu về kích thước của từng hộp và khởi tạo các đối tượng Box tương ứng.
+
+Tiếp theo, chúng ta sắp xếp các hộp trong mảng boxes theo thứ tự tăng dần bằng cách sử dụng thuật toán sắp xếp chọn (selection sort) và phép toán đè <.
+
+Cuối cùng, chúng ta in ra thông tin của các hộp đã được sắp xếp.

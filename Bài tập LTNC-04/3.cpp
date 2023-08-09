@@ -22,8 +22,6 @@ int findIndex(const string& s) {
                 return left;
             } else if (isPalindrome(s, left, right - 1)) {
                 return right;
-            } else {
-                return -1;
             }
         }
         left++;

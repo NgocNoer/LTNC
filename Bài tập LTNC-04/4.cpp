@@ -24,7 +24,7 @@ int main() {
     for (int i = 0; i < q; i++) {
         int a, b;
         cin >> a >> b;
-        cout << arrays[a - 1][b - 1] << endl;
+        cout << arrays[a][b] << endl;
     }
 
     return 0;

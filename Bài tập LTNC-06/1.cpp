@@ -2,14 +2,13 @@
 #include <sstream>
 using namespace std;
 
-class Student {
-private:
+Struct Student {
+public:
     int age;
     string first_name;
     string last_name;
     int standard;
 
-public:
     void set_age(int a) {
         age = a;
     }
@@ -43,8 +42,7 @@ public:
     }
 
     string to_string() {
-        stringstream ss;
-        ss << age << "," << first_name << "," << last_name << "," << standard;
+        cout << age << "," << first_name << "," << last_name << "," << standard;
         return ss.str();
     }
 };

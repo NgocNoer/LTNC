@@ -3,7 +3,8 @@
 
 Sau khi clone code về, hãy mở maven và click javafx: run để chạy chương trình: (như ảnh dưới)
  
-![](https://github.com/Nghiattk27/OOP-Dictionary/blob/master/images/start.png)
+![p4](https://github.com/NgocNoer/LTNC/assets/91111075/ed05859f-ae32-43fa-8abc-ed6e5605d582)
+
 
 ## Dịch
 
